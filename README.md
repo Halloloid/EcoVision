@@ -42,8 +42,8 @@ The system rewards users for correctly classifying waste, building an engaging, 
 
 ```text
 [React Frontend]  →  [Express Backend]  →  [FastAPI Model Server]
-           ↘                                          ↘
-         [MongoDB]                                 [PyTorch EfficientNet Model]
+                            ↘                            ↘
+                          [MongoDB]                  [PyTorch EfficientNet Model]
 ```
 
 ---
@@ -61,8 +61,8 @@ The system rewards users for correctly classifying waste, building an engaging, 
 ### Express Backend
 | Method | Endpoint | Description |
 |--------|-----------|-------------|
-| `POST` | `/api/auth/register` | Register new user |
-| `POST` | `/api/auth/login` | User login |
+| `POST` | `/auth/signup` | Register new user |
+| `POST` | `/auth/login` | User login |
 | `POST` | `/api/predict` | Upload image → Forward to FastAPI |
 | `GET` | `/api/leaderboard` | Fetch top users by eco-points |
 
@@ -77,9 +77,7 @@ The system rewards users for correctly classifying waste, building an engaging, 
 
 | Upload Screen | Leaderboard |
 |:--------------:|:------------:|
-| ![Upload](assets/upload_preview.png) | ![Leaderboard](assets/leaderboard_preview.png) |
-
-> *(Replace the above images with your actual screenshots)*
+| <img width="1919" height="1009" alt="Screenshot 2025-11-02 171009" src="https://github.com/user-attachments/assets/e4a7c973-8384-4012-88f5-4a3b4977cbf5" /> | <img width="1663" height="869" alt="Screenshot 2025-11-02 171101" src="https://github.com/user-attachments/assets/a3ab9379-7d8a-4c01-8f80-c36bd6e96b9b" /> |
 
 ---
 
@@ -87,8 +85,7 @@ The system rewards users for correctly classifying waste, building an engaging, 
 
 **👤 Amrut Prasad Patro aka(Halloloid)**  
 💼 Full-Stack Developer | ML Enthusiast  
-🌐 [GitHub](https://github.com/yourusername) • [LinkedIn](https://linkedin.com/in/yourprofile)
-
+🌐 [GitHub](https://github.com/Halloloid) 
 ---
 
 ## 🏁 Future Enhancements
