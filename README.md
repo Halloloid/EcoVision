@@ -3,6 +3,7 @@
 **EcoVision** is a full-stack AI-powered waste classification platform that promotes environmental awareness through technology and gamification.  
 Users can upload images of waste, get instant classification results via a deep learning model, earn eco-points, and climb the global leaderboard.
 
+ **Deployed** - https://eco-vision-sable.vercel.app/
 ---
 
 ## 🚀 Project Overview
